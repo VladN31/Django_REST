@@ -1,0 +1,58 @@
+django-admin startproject web_project . - new project
+
+python manage.py runserver - run app
+
+python manage.py migrate   -create database in django
+
+python manage.py startapp 'nameoftheapp - create app inside django
+
+python manage.py makemigrations - new changes 1
+python manage.py migrate   - new changes 2 update the entire djnago
+
+
+
+DJANGO-REST-FRAMEWORK
+
+
+Book inventory storage
+
+pip install --upgrade pip - to be run for upgrading pip
+
+sudo apt install python3-pip python3-venv - install venv
+
+python3 -m venv 'nameofvenv' - run the pakeges for virtual enviroment
+
+source venv/bin/activate - to activate the venv ////UBUNTU
+
+python3 manage.py startapp book_api - to start a project Django
+
+python3 manage.py startapp 'name of the app" - to start a new app inside django
+
+python3 manage.py makemigrations - to be used only when you are adding new models
+
+python3 manage.py startapp book_api - to be run after the 'makemigrations'
+
+python3 manage.py runserver - to start the django app
+
+pip install -r requirements.txt - this option is when you are deploying to an cloud server in order to install all of the pakeges
+
+
+
+
+
+
+/////////////////////////////////////////
+
+Docker - Postgres DB
+
+
+docker login - add username and password
+
+docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+
+docker ps - cherck if the container is running 
+
+
+
+
+
