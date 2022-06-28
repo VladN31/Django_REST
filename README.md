@@ -1,4 +1,4 @@
-# Simple Django Hello World Starter Template
+# Django_RESTFRAMEWORK_CRUD Booking library
 
 A basic Django 3.0 starter project.
 
