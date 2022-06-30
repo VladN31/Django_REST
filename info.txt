@@ -38,6 +38,10 @@ python3 manage.py runserver - to start the django app
 
 pip install -r requirements.txt - this option is when you are deploying to an cloud server in order to install all of the pakeges
 
+Install a specifiv version of python ----------------
+Step1 - sudo apt install python3-pip python3.8-venv
+Step2 - python3.8 -m venv venv
+
 
 
 
