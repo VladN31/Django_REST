@@ -24,6 +24,8 @@ python3 -m venv 'nameofvenv' - run the pakeges for virtual enviroment
 
 source venv/bin/activate - to activate the venv ////UBUNTU
 
+ python3.8 -m venv venv - to choose a specifiv version of python
+
 python3 manage.py startapp book_api - to start a project Django
 
 python3 manage.py startapp 'name of the app" - to start a new app inside django
